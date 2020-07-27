@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+}
+
+.form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(246, 241, 241, 0.9);
+  width: 90%;
+  border-radius: 40px;
+
+  margin: 20px;
+}
+
+.formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.input {
+  flex: 1;
+}
+.iconButton {
+  flex: 0;
+}
